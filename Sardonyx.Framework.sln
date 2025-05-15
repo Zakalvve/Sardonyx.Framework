@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E24BDB81-FF53-44E6-87A5-D1EEC3936D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sardonyx.Framework.Testing.WebApp", "src\Sardonyx.Framework.Testing\Sardonyx.Framework.Testing.WebApp\Sardonyx.Framework.Testing.WebApp.csproj", "{F14FA4F5-7403-4995-BBC9-F1E1386C1719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sardonyx.Framework.Core.CQRS", "src\Sardonyx.Framework.Core.CQRS\Sardonyx.Framework.Core.CQRS.csproj", "{7A8E7AEB-2046-4999-B541-90967634CB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sardonyx.Framework.Core", "src\Sardonyx.Framework.Core\Sardonyx.Framework.Core.csproj", "{35ED3452-1AC4-4C62-A80E-C13CC4B2D876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sardonyx.Framework.Client", "src\Sardonyx.Framework.Client\Sardonyx.Framework.Client.csproj", "{F64DB36E-B070-41FB-ACCA-6B87F9125FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14FA4F5-7403-4995-BBC9-F1E1386C1719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14FA4F5-7403-4995-BBC9-F1E1386C1719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14FA4F5-7403-4995-BBC9-F1E1386C1719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14FA4F5-7403-4995-BBC9-F1E1386C1719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8E7AEB-2046-4999-B541-90967634CB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8E7AEB-2046-4999-B541-90967634CB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8E7AEB-2046-4999-B541-90967634CB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8E7AEB-2046-4999-B541-90967634CB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ED3452-1AC4-4C62-A80E-C13CC4B2D876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ED3452-1AC4-4C62-A80E-C13CC4B2D876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ED3452-1AC4-4C62-A80E-C13CC4B2D876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ED3452-1AC4-4C62-A80E-C13CC4B2D876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64DB36E-B070-41FB-ACCA-6B87F9125FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64DB36E-B070-41FB-ACCA-6B87F9125FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64DB36E-B070-41FB-ACCA-6B87F9125FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64DB36E-B070-41FB-ACCA-6B87F9125FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F14FA4F5-7403-4995-BBC9-F1E1386C1719} = {E24BDB81-FF53-44E6-87A5-D1EEC3936D85}
+		{7A8E7AEB-2046-4999-B541-90967634CB87} = {E24BDB81-FF53-44E6-87A5-D1EEC3936D85}
+		{35ED3452-1AC4-4C62-A80E-C13CC4B2D876} = {E24BDB81-FF53-44E6-87A5-D1EEC3936D85}
+		{F64DB36E-B070-41FB-ACCA-6B87F9125FD8} = {E24BDB81-FF53-44E6-87A5-D1EEC3936D85}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D4675A8-D17D-4126-88C8-EDF3B556B4DE}
+	EndGlobalSection
+EndGlobal

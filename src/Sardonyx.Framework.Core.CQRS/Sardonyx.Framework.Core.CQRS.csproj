@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<PackageId>Sardonyx.Framework.Core.CQRS</PackageId>
+		<Authors>David Williams</Authors>
+		<Company>Sardonyx Studios</Company>
+		<Description>A .NET Core library for adding a CQRS system to your project.</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Sardonyx.Framework.Core\Sardonyx.Framework.Core.csproj" />
+	</ItemGroup>
+
+</Project>
